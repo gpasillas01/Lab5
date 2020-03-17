@@ -1,16 +1,22 @@
 
-<h2> Get to Know Your Planets</h2>
 
-//table borders
+table {
+   border-collapse: collapse;
+  width 100%
+}
 table, th, td {
-  border: 1px solid black;
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+    
+td {
+  text-align: left;
 }
 
-//Table components
-<table>
-  <tr>
-    <th>Mars</th>
-    <th>Jupiter</th>
-    <th>Venus</th>
-    <th>Earth</th>
-    
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:hover {background-color: #00ffff;}
+tr:nth-child(even) {background-color: #f2f2f2;}
