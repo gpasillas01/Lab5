@@ -1,0 +1,16 @@
+
+<h2> Get to Know Your Planets</h2>
+
+//table borders
+table, th, td {
+  border: 1px solid black;
+}
+
+//Table components
+<table>
+  <tr>
+    <th>Mars</th>
+    <th>Jupiter</th>
+    <th>Venus</th>
+    <th>Earth</th>
+    
