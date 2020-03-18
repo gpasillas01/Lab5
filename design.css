@@ -25,5 +25,6 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 table, th, td {
   border: 2px solid black;
 }
-
-
+.background {
+	background-image: url("Solarbackground.jpg");
+}
